@@ -7,8 +7,35 @@
     font-style: normal;
 
 }
+.footer-end{
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer-end table{
+    font-size: medium;
+}
+.box-text-icon{
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 10px;
 
+    
 
+}
+.box-text-icon i{
+ color: aqua;
+
+    
+
+}
 
 /* Estilos básicos para o modal */
 .modal {
@@ -282,6 +309,10 @@ header {
         font-weight: 500;
         font-style: normal;
     
+    }
+
+    .box-end{
+        display: none;
     }
     .container-content{
         display: none;
