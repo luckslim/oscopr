@@ -50,14 +50,13 @@
   }
   
   .modal-content {
-    background-image: url('../img/norman.jpg');
+    background-image: url('../img/Moon.jpg');
     background-position: center;
-    filter:  opacity(95%) sepia(85%);
+    background-position: 80px 0px;
     background-size: cover;
     margin: 50px auto;
     padding: 20px;
     border: none;
-    width: 80%;
     max-width: 600px;
     height: 70vh;
   }
@@ -74,16 +73,16 @@
     color: #ffffff;
     display: block;
     border: #ffffff;
-    background-color: #ff510083;
-    width: 80%;
+    background-color: #2bff004f;
+    width: 70%;
     cursor: pointer;
     border-radius: 3px;
     padding: 10px;
   }
   .footer-modal{
-    color: #ffffff77;
+    color: #ffffff;
     text-align: end;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 10px;
     font-size: 20px;
     align-items: center;
@@ -97,7 +96,7 @@
     .box-modal-down{
         
         margin: 0 10px;
-        color: #131313bd;
+        color: #f5f100bd;
         display: flex;
         flex-direction: row;
         align-items: baseline;
