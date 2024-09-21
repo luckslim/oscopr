@@ -7,69 +7,46 @@
     font-style: normal;
 
 }
-.footer-end{
-    background-color: #000000;
-    color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-.footer-end table{
-    font-size: medium;
-}
-.box-text-icon{
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    margin: 10px;
-
-    
-
-}
-.box-text-icon i{
- color: aqua;
-
-    
-
-}
 
 /* Estilos básicos para o modal */
 .modal {
-    display: none; /* Escondido por padrão */
+    display: none;
+    /* Escondido por padrão */
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  }
-  
-  .modal-content {
-    background-image: url('../img/Moon.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente */
+}
+
+.modal-content {
+    background-image: url('../img/Moonnew.jpg');
     background-position: center;
-    background-position: 80px 0px;
+    background-position: center;
     background-size: cover;
     margin: 50px auto;
     padding: 20px;
     border: none;
     max-width: 600px;
-    height: 70vh;
-  }
-  .box-modal{
+    height: 80vh;
+}
+
+.box-modal {
     text-align: start;
     color: #ffffff94;
     display: flex;
     flex-direction: column;
-  }
-  .box-modal h1,p{
+}
+
+.box-modal h1,
+p {
     max-width: 300px;
-  }
-  .box-modal button{
+}
+
+.box-modal button {
     color: #ffffff;
     display: block;
     border: #ffffff;
@@ -78,8 +55,9 @@
     cursor: pointer;
     border-radius: 3px;
     padding: 10px;
-  }
-  .footer-modal{
+}
+
+.footer-modal {
     color: #ffffff;
     text-align: end;
     margin-top: 30px;
@@ -88,53 +66,45 @@
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-  }
-    .footer-modal i{
-        cursor: pointer;
-        width: 30px;
-    }
-    .box-modal-down{
-        
-        margin: 0 10px;
-        color: #f5f100bd;
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        
-    }
-    .box-modal-down i {
-        color: rgb(103, 172, 0);
-       
+}
 
-    }
-  
-  .close {
+.footer-modal i {
+    cursor: pointer;
+    width: 30px;
+}
+
+.box-modal-down {
+
+    margin: 0 10px;
+    color: #f5f100bd;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.box-modal-down i {
+    color: rgb(103, 172, 0);
+
+
+}
+
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
-  }
-
-  
-
-
-
-
-.Mobile-footer{
-    display: none;
 }
-.Mobile-content{
-    display: none;
-}
+
 header {
-    background-image: url('../img/background-oscorp.jpg');
+    background-image: url('../img/oscorp-teste.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,7 +157,7 @@ header {
 
 .box-image .atom {
     max-width: 30%;
-    filter: invert(90%) opacity(55%) sepia(75%);
+    filter: invert(100%) opacity(55%) sepia(35%);
 }
 
 .box-image .oscorp {
@@ -211,66 +181,6 @@ header {
         transform: rotate(360deg);
         /* Completa uma volta */
     }
-}
-
-.post-content {
-    background-image: url('../img/creator.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 40vh;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    filter: contrast(50%) saturate(20%);
-
-}
-
-.box-post {
-    text-align: center;
-    margin: auto;
-    color: rgb(208, 255, 0);
-    font-size: 30px;
-
-}
-
-.container-footer {
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    margin: 100px auto 100px;
-    padding: 0 2%;
-}
-
-.box-footer {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-
-}
-
-.box-footer img {
-    margin: auto;
-    max-width: 200px;
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    justify-items: auto;
-
-}
-
-.links a {
-    align-items: center;
-    text-decoration: none;
-    font-size: larger;
-    padding: 0 2%;
-    color: black;
 }
 
 
@@ -297,98 +207,5 @@ header {
 
     100% {
         content: "Driving Industry, Creating Possibilities – Oscorp";
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: "SUSE", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-    
-    }
-
-    .box-end{
-        display: none;
-    }
-    .container-content{
-        display: none;
-    }
-    .container-footer{
-        display: none;
-    }
-    .Mobile-content{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        margin: 80px auto;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .Mobile-box{
-        padding: 0 10%;
-        text-align: center;
-        margin: auto;
-        color: rgb(241, 252, 184);
-        letter-spacing: 3px;
-        
-    }
-    .Mobile-content .atom{
-        width: 200px ;
-        filter: invert(90%) opacity(55%) sepia(75%)
-    }
-    .Mobile-content .oscorp{
-        width: 300px;
-        filter: invert(90%) opacity(55%) sepia(75%)
-    }
-    .Mobile-footer{
-        background-color:#ffffff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: auto;
-
-    }
-    .Mobile-boxfooter{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: auto;
-        align-items: center;
-        text-align: center;
-    }
-    .Mobile-boxfooter .atom{
-        width: 80px;
-        margin: 20px;
-    }
-    .Mobile-boxfooter .oscorp{
-        width: 200px;
-        margin: 20px;
-    }
-    .Mobile-boxfooter .links-table{
-        display: flex;
-        flex-direction: column;
-        padding: 0 2%;
-    
-    }
-    table{
-        margin: 10px auto;
-        font-size: 30px;
-        justify-content: space-around;
-
-    }
-    table td{
-        width: auto;
-    }
-    header {
-        background-image: url('../img/background-oscorp.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
     }
 }
