@@ -23,6 +23,7 @@ a{
     display: flex;
     flex-direction: row;
     text-align: center;
+    filter: opacity(70%);
 }
 .body-about .box-about{
     width: 50%;
@@ -36,6 +37,7 @@ a{
     background-repeat: no-repeat;
     width: 50%;
     padding: 500px 2%;
+    letter-spacing: 2px;
 }
 .body-about .banner-about{
     display: flex;
@@ -56,6 +58,7 @@ a{
     padding: 30px 2%;
     width: 50%;
     margin: auto;
+    letter-spacing: 3px;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -324,6 +327,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: start;
+    letter-spacing: 1px;
 
 }
 .body-content .box-body{
