@@ -23,7 +23,7 @@ a{
     display: flex;
     flex-direction: row;
     text-align: center;
-    filter: opacity(70%);
+    filter: opacity(80%);
 }
 .body-about .box-about{
     width: 50%;
@@ -94,9 +94,9 @@ body{
 .icons-section .btn-light{
     width: 80%;
     margin: 10px 10px 10px 10px ;
-    background-color: #ffffff4b;
+    background-color: #ffffff00;
     color: #ffffff;
-    border: none;
+    border: static ;
 }
 .icons-section .fa-seedling{
     color: rgb(3, 189, 3);
