@@ -7,6 +7,18 @@
     font-style: normal;
 
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+body::-webkit-scrollbar{
+    display: none;
+
+
+}
+body{
+    overflow: hidden;
+}
 .sections{
     margin: auto;
     border-style: none;
@@ -151,7 +163,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 106vh;
+    height: 100vh;
 }
 
 .container-header {
@@ -251,6 +263,31 @@ header {
     100% {
         content: "Driving Industry, Creating Possibilities – Oscorp";
     }
+}
+
+.body-content{
+    background-image: url('../img/ia-oscorp.jpg');
+    background-color: #181818;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+
+}
+.body-content .box-body{
+    width:100%;
+    padding: 0 2%;
+    margin-left: 100px;
+}
+.body-content .icons-body{
+    font-size: 20px;
+    padding: 0 2%;
 }
 
 @media only screen and (max-width: 600px) {
