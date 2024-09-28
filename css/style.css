@@ -100,3 +100,113 @@ header .container-header nav,a{
         content: "Driving Industry, Creating Possibilities – Oscorp";
     }
 }
+
+/* modal */
+.icons-section .fa-seedling{
+    color: rgb(3, 189, 3);
+
+}
+.icons-section .fa-radiation{
+    color: rgb(255, 230, 7);
+
+}
+.icons-section .fa-dna{
+    color: rgb(30, 210, 255);
+
+}
+
+
+/* Estilos básicos para o modal */
+.modal {
+    display: none;
+    /* Escondido por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente */
+}
+
+.modal-content {
+    background-image: url('../img/Moonnew.jpg');
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    max-width: 600px;
+    height: 80vh;
+}
+
+.box-modal {
+    text-align: start;
+    color: #ffffff94;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-modal h1,
+p {
+    max-width: 300px;
+}
+
+.box-modal button {
+    color: #ffffff;
+    display: block;
+    border: #ffffff;
+    background-color: #2bff004f;
+    width: 70%;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.footer-modal {
+    color: #ffffff;
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-modal i {
+    cursor: pointer;
+    width: 30px;
+}
+
+.box-modal-down {
+
+    margin: 0 10px;
+    color: #f5f100bd;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.box-modal-down i {
+    color: rgb(103, 172, 0);
+
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
