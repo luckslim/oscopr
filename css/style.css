@@ -1,0 +1,23 @@
+body{
+
+    background-color: #181818;
+    background-image: url('../img/ia-oscorp.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:600px;
+    height: 100vh;
+}
+header .container-header{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2%;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+header .container-header nav{
+    width: 50%;
+}
