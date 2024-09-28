@@ -36,7 +36,7 @@ header .container-header nav,a{
 /* content */
 .content{
     margin-top: 90px;
-    height: auto;
+    height: 500px;
     overflow-y: scroll;
     overflow: hidden;
 }
@@ -50,4 +50,29 @@ header .container-header nav,a{
     height: auto;
     margin: auto;
     
+}
+.box-image .atom {
+    max-width: 50%;
+    filter: invert(100%);
+}
+.box-image .oscorp {
+    max-width: 50%;
+    filter: invert(100%);
+}
+.atom {
+    animation: atom 15s linear infinite;
+    /* 5 segundos para uma rotação completa, ajuste conforme necessário */
+}
+
+/* Definindo a animação spin */
+@keyframes atom {
+    from {
+        transform: rotate(0deg);
+        /* Início da rotação */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* Completa uma volta */
+    }
 }
