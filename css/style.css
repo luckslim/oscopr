@@ -36,7 +36,7 @@ header .container-header nav,a{
 /* content */
 .content{
     margin-top: 90px;
-    height: 500px;
+    height: 540px;
     overflow-y: scroll;
     overflow: hidden;
 }
@@ -47,8 +47,7 @@ header .container-header nav,a{
 .content .row {
     align-items: center;
     justify-content: center;
-    height: auto;
-    margin: auto;
+    margin-top: 190px;
     
 }
 .box-image .atom {
