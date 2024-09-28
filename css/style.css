@@ -35,14 +35,19 @@ header .container-header nav,a{
 }
 /* content */
 .content{
-    width: 100%;
-    margin: auto;
+    margin-top: 90px;
+    height: auto;
+    overflow-y: scroll;
+    overflow: hidden;
 }
+
 .content .themed-grid-col{
     background-color: rgba(255, 255, 255, 0);
-    
-
 }
 .content .row {
+    align-items: center;
+    justify-content: center;
+    height: auto;
     margin: auto;
+    
 }
