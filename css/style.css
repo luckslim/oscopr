@@ -76,3 +76,28 @@ header .container-header nav,a{
         /* Completa uma volta */
     }
 }
+
+.text-sequence::before {
+    content: "Texto 1";
+    animation: changeText 15s infinite;
+    cursor: pointer;
+
+}
+
+@keyframes changeText {
+    0% {
+        content: "Oscorp: Innovation that Transforms the Future";
+    }
+
+    33% {
+        content: "Quality and Technology with the Oscorp Mark";
+    }
+
+    66% {
+        content: "Oscorp: Where Excellence Meets Progress"
+    }
+
+    100% {
+        content: "Driving Industry, Creating Possibilities – Oscorp";
+    }
+}
