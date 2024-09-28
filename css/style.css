@@ -1,6 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     color: aliceblue;
-
     background-color: #181818;
     background-image: url('../img/ia-oscorp.jpg');
     background-position: left;
@@ -29,4 +32,17 @@ header .container-header nav,a{
     color: aliceblue;
     text-decoration: none;
 
+}
+/* content */
+.content{
+    width: 100%;
+    margin: auto;
+}
+.content .themed-grid-col{
+    background-color: rgba(255, 255, 255, 0);
+    
+
+}
+.content .row {
+    margin: auto;
 }
